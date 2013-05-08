@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0414872816B06BED00FE421D /* CS315_XCode_4_5_template.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0414872716B06BED00FE421D /* CS315_XCode_4_5_template.1 */; };
+		0414873316B06C2000FE421D /* InitShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0414873016B06C2000FE421D /* InitShader.cpp */; };
+		0414873616B06C3C00FE421D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0414873416B06C3C00FE421D /* GLUT.framework */; };
+		0414873716B06C3C00FE421D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0414873516B06C3C00FE421D /* OpenGL.framework */; };
+		0414873B16B06CAB00FE421D /* GLEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0414873A16B06CAB00FE421D /* GLEW.framework */; };
+		3972A97D16B9AEAC00A5952A /* fshader.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 39D9B50E16B9A25800401D15 /* fshader.glsl */; };
+		3972A97E16B9AEAC00A5952A /* vshader.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 39D9B51016B9A25800401D15 /* vshader.glsl */; };
+		39D9B51116B9A25800401D15 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D9B50F16B9A25800401D15 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0414871F16B06BED00FE421D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0414872816B06BED00FE421D /* CS315_XCode_4_5_template.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0414873C16B06CEC00FE421D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				3972A97D16B9AEAC00A5952A /* fshader.glsl in CopyFiles */,
+				3972A97E16B9AEAC00A5952A /* vshader.glsl in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0414872116B06BED00FE421D /* CS315_XCode_4.5_template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CS315_XCode_4.5_template; sourceTree = BUILT_PRODUCTS_DIR; };
+		0414872716B06BED00FE421D /* CS315_XCode_4_5_template.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CS315_XCode_4_5_template.1; sourceTree = "<group>"; };
+		0414872E16B06C2000FE421D /* Angel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Angel.h; sourceTree = "<group>"; };
+		0414872F16B06C2000FE421D /* CheckError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckError.h; sourceTree = "<group>"; };
+		0414873016B06C2000FE421D /* InitShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InitShader.cpp; sourceTree = "<group>"; };
+		0414873416B06C3C00FE421D /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		0414873516B06C3C00FE421D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0414873816B06C7000FE421D /* project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = project.xcworkspace; path = CS315_XCode_4.5_template.xcodeproj/project.xcworkspace; sourceTree = "<group>"; };
+		0414873A16B06CAB00FE421D /* GLEW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLEW.framework; sourceTree = "<group>"; };
+		39D3517216B9FB74007D1694 /* vec2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vec2.h; sourceTree = "<group>"; };
+		39D3517516BA0302007D1694 /* mat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat.h; sourceTree = "<group>"; };
+		39D3517616BA0302007D1694 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec.h; sourceTree = "<group>"; };
+		39D9B50E16B9A25800401D15 /* fshader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fshader.glsl; sourceTree = "<group>"; };
+		39D9B50F16B9A25800401D15 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		39D9B51016B9A25800401D15 /* vshader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vshader.glsl; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0414871E16B06BED00FE421D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0414873B16B06CAB00FE421D /* GLEW.framework in Frameworks */,
+				0414873616B06C3C00FE421D /* GLUT.framework in Frameworks */,
+				0414873716B06C3C00FE421D /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0414871616B06BED00FE421D = {
+			isa = PBXGroup;
+			children = (
+				0414873A16B06CAB00FE421D /* GLEW.framework */,
+				0414873816B06C7000FE421D /* project.xcworkspace */,
+				0414873416B06C3C00FE421D /* GLUT.framework */,
+				0414873516B06C3C00FE421D /* OpenGL.framework */,
+				0414872416B06BED00FE421D /* CS315_XCode_4.5_template */,
+				0414872216B06BED00FE421D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0414872216B06BED00FE421D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0414872116B06BED00FE421D /* CS315_XCode_4.5_template */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0414872416B06BED00FE421D /* CS315_XCode_4.5_template */ = {
+			isa = PBXGroup;
+			children = (
+				39D3517516BA0302007D1694 /* mat.h */,
+				39D3517616BA0302007D1694 /* vec.h */,
+				39D9B50E16B9A25800401D15 /* fshader.glsl */,
+				39D9B50F16B9A25800401D15 /* main.cpp */,
+				39D9B51016B9A25800401D15 /* vshader.glsl */,
+				0414872E16B06C2000FE421D /* Angel.h */,
+				0414872F16B06C2000FE421D /* CheckError.h */,
+				0414873016B06C2000FE421D /* InitShader.cpp */,
+				0414872716B06BED00FE421D /* CS315_XCode_4_5_template.1 */,
+				39D3517216B9FB74007D1694 /* vec2.h */,
+			);
+			path = CS315_XCode_4.5_template;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0414872016B06BED00FE421D /* CS315_XCode_4.5_template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0414872B16B06BED00FE421D /* Build configuration list for PBXNativeTarget "CS315_XCode_4.5_template" */;
+			buildPhases = (
+				0414871D16B06BED00FE421D /* Sources */,
+				0414871E16B06BED00FE421D /* Frameworks */,
+				0414871F16B06BED00FE421D /* CopyFiles */,
+				0414873C16B06CEC00FE421D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CS315_XCode_4.5_template;
+			productName = CS315_XCode_4.5_template;
+			productReference = 0414872116B06BED00FE421D /* CS315_XCode_4.5_template */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0414871816B06BED00FE421D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "CS 315";
+			};
+			buildConfigurationList = 0414871B16B06BED00FE421D /* Build configuration list for PBXProject "CS315_XCode_4.5_template" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0414871616B06BED00FE421D;
+			productRefGroup = 0414872216B06BED00FE421D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0414872016B06BED00FE421D /* CS315_XCode_4.5_template */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0414871D16B06BED00FE421D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0414873316B06C2000FE421D /* InitShader.cpp in Sources */,
+				39D9B51116B9A25800401D15 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0414872916B06BED00FE421D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0414872A16B06BED00FE421D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0414872C16B06BED00FE421D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0414872D16B06BED00FE421D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0414871B16B06BED00FE421D /* Build configuration list for PBXProject "CS315_XCode_4.5_template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0414872916B06BED00FE421D /* Debug */,
+				0414872A16B06BED00FE421D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0414872B16B06BED00FE421D /* Build configuration list for PBXNativeTarget "CS315_XCode_4.5_template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0414872C16B06BED00FE421D /* Debug */,
+				0414872D16B06BED00FE421D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0414871816B06BED00FE421D /* Project object */;
+}
